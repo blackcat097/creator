@@ -64,11 +64,9 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-*Hellow There, I'm Anki Vector 🍑
+'Hello Baby I am Creator
 
-I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
-hit /help to Find my list of available commands 🕹*
-"""
+A Powerful Group Manager with a Lots of Cool Features. Also I can play a songs in ur Super Group'\n\n 'Specially Designed By :' [𝗖𝗿𝗲𝗮𝘁𝗼𝗿 𝗣𝗮𝘃𝗮𝗻](https://t.me/creator_pavan)"""
 
 buttons = [
     [
