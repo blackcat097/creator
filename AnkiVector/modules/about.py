@@ -1,14 +1,18 @@
 __help__ = """
-** Anki Vector - A Powerful Telegram Group Manager 🎶 **
+**ʜɪɪ ᴛʜᴇʀᴇ, ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴄʀᴇᴀᴛᴏʀ 
 
-Powerful Abilities
+ɪ ᴀᴍ ᴛʜᴇ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴏᴘ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴡʜɪᴄʜ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ɴᴇᴛᴡᴏʀᴋ. 
 
-• Group Voice Chat Music Play ❤️
-• File To Link and URL Upload 📂
-• Youtube Downloader 🎵
+» ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ.
 
-Developers [TeamAnkiVector🇱🇰](https://t.me/TeamAnkiVector)
+» ɪ ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ.
 
-**~ @TheAnkiVectorBot**
+» ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀ ᴍᴜꜱɪᴄ ɪɴ ᴜʀ ɢʀᴏᴜᴘꜱ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ.
+
+» ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ᴜʀ ɢʀᴏᴜᴘ ᴠᴇʀʏ ꜱᴍᴏᴏᴛʜʟʏ.
+
+ꜰᴏʀ ᴀ ᴀɴʏ ᴛʏᴘᴇ ᴏꜰ ʜᴇʟᴘ ᴏʀ ᴀɴʏ ᴛʏᴘᴇ ᴏꜰ ᴜʀ Qᴜᴀʀʀɪᴇꜱ ᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ ᴀᴛ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.**
+
+© @CreatorPavanNetwork
 """
-__mod_name__ = "About"
+__mod_name__ = "ᴀʙᴏᴜᴛ"
