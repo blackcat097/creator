@@ -215,6 +215,8 @@ Admin commands:
 ✪ /approved*:* List all approved users.
 ✪ /unapproveall*:* Unapprove ALL users in a chat. This cannot be undone.
 \
+
+© @CreatorPavanNetwork
 """    
 
 APPROVED_HANDLER = DisableAbleCommandHandler("approved", approved, filters=Filters.group)
