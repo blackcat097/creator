@@ -64,28 +64,36 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-'Hello Baby I am Creator
+`ʜᴇᴍʟᴏ ʙᴀʙʏ ɪ ᴀᴍ The Creator
 
-A Powerful Group Manager with a Lots of Cool Features. Also I can play a songs in ur Super Group'\n\n 'Specially Designed By :' [𝗖𝗿𝗲𝗮𝘁𝗼𝗿 𝗣𝗮𝘃𝗮𝗻](https://t.me/creator_pavan)"""
+ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ꜱᴜᴘᴇʀꜰᴀꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴏᴘ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴄᴏʟʟ ꜰᴇᴀᴛᴜʀᴇꜱ`\n\n`ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ` : @Creator_Pavan"""
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data="aboutmanu_howto"),
     ],
     [
-        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", url="https://t.me/Creator_Pavan"),
+        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", callback_data="aboutmanu_credit"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheCreatorPavan"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/TheCreatorPavan"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ", url="t.me/TheAnkiVectorbot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_STICKER = "CAACAgUAAxkBAAEEwKthkPVBp6d5T4S3dlYZM3L8BkXRNAACOAQAAryviVQbCLI09PvjAAEiBA"
+ANKIVECTOR_STICKER = "CAACAgIAAx0CYAluEgACTGhhqI50FqLE-oevkt7e4EK-xCDZYQACTRAAAowt_QcvxvoUFbyqYiIE"
 
 HELP_STRINGS = f"""
 *Main Commands :* 🤖
