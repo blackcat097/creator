@@ -93,7 +93,7 @@ buttons = [
 ]
 
 
-ANKIVECTOR_STICKER = "CAACAgIAAx0CYAluEgACTGhhqI50FqLE-oevkt7e4EK-xCDZYQACTRAAAowt_QcvxvoUFbyqYiIE"
+ANKIVECTOR_STICKER = "CAACAgUAAx0CYAluEgACTI1hqJVOxi6jgop3UnbVECof8tTS8gACjQQAAhuvOFUbut-7-DjxFyIE"
 
 HELP_STRINGS = f"""
 *Main Commands :* 🤖
