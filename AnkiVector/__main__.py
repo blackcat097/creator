@@ -359,7 +359,7 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* ʜɪɪ ᴛʜᴇʀᴇ, ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴄʀᴇᴀᴛᴏʀ \n\nɪ ᴀᴍ ᴛʜᴇ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴏᴘ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴡʜɪᴄʜ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ.* "
+            text=f"* ʜɪɪ ᴛʜᴇʀᴇ, ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴄʀᴇᴀᴛᴏʀ \n\nɪ ᴀᴍ ᴛʜᴇ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴏᴘ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴡʜɪᴄʜ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ɴᴇᴛᴡᴏʀᴋ.* "
             f"\n\n» ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ."
             f"\n\n» ɪ ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ."
             f"\n\n» ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀ ᴍᴜꜱɪᴄ ɪɴ ᴜʀ ɢʀᴏᴜᴘꜱ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."
@@ -407,7 +407,7 @@ def AnkiVector_about_callback(update, context):
             text=f"*ᴀʙᴏᴜᴛ ᴄʀᴇᴀᴛᴏʀ ᴄʀᴇᴅɪᴛ :*\n\n» ᴄʀᴇᴀᴛᴏʀ ɪꜱ ᴛʜᴇ ʀᴇᴅᴇꜱɪɢɴᴇᴅ ᴠᴇʀꜱɪᴏɴ ᴏꜰ ᴅᴀɪꜱʏ, ɴᴀʀᴜᴛᴏ ᴀɴᴅ ᴀɴᴋɪɪ."
             f"\n» ꜰʀᴏᴍ ᴏᴜʀ ᴀʙɪʟɪᴛʏ ᴡᴇ ᴛʀʏ ᴛᴏ ᴍᴀᴋᴇ ɪᴛ ᴇᴀꜱɪᴇʀ ᴀɴᴅ ᴛʀʏ ᴛᴏ ɢɪᴠᴇ ᴀ ʙᴇꜱᴛ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ."
             f"\n» ᴛʜᴇ ᴍᴀɪɴ ꜱᴏᴜʀᴄᴇ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴡʀɪᴛᴛᴇɴ ʙʏ ᴅᴀᴍᴀɴᴛʜᴀ."
-            f"\n\n*ɪꜰ ᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴄʀᴇᴀᴛᴏʀ ᴛʜᴇɴ ʟᴇᴛ ᴜꜱ ᴋɴᴏᴡ ᴀᴛ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.*",
+            f"\n\n*ɪꜰ ᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ ᴛʜᴇɴ ʟᴇᴛ ᴜꜱ ᴋɴᴏᴡ ᴀᴛ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -462,14 +462,13 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
-            f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by Anki Vector Updates team spending many sleepless nights.. So, Respect it."
-            f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @{SUPPORT_CHAT}."
-            f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
-            f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of AnkiVectorBot we are not resposible for anything."
-            f"\n\nFor any kind of help, related to this bot, Join @{SUPPORT_CHAT}."
+            f"\n✪ ᴡᴇ ᴀʟᴡᴀʏꜱ ʀᴇꜱᴘᴇᴄᴛ ʏᴏᴜʀ ᴘʀɪᴠᴀᴄʏ ᴡᴇ ɴᴇᴠᴇʀ ʟᴏɢ ɪɴᴛᴏ ʙᴏᴛ'ꜱ ᴀᴘɪ ᴀɴᴅ ꜱᴘʏɪɴɢ ᴏɴ ʏᴏᴜ ᴡᴇ ᴜꜱᴇ ᴀ ᴇɴᴄʀɪᴘᴛᴇᴅ ᴅᴀᴛᴀʙᴀꜱᴇ ʙᴏᴛ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ꜱᴛᴏᴘꜱ ɪꜰ ꜱᴏᴍᴇᴏɴᴇ ʟᴏɢɢᴇᴅ ɪɴ ᴡɪᴛʜ ᴀᴘɪ."
+            f"\n✪ ᴀʟᴡᴀʏꜱ ᴛʀʏ ᴛᴏ ᴋᴇᴇᴘ ᴄʀᴇᴅɪᴛꜱ, ꜱᴏ ᴛʜɪꜱ ʜᴀʀᴅᴡᴏʀᴋ ɪꜱ ᴅᴏɴᴇ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ɴᴇᴛᴡᴏʀᴋ ᴛᴇᴀᴍ ꜱᴘᴇɴᴅɪɴɢ ᴍᴀɴʏ ꜱʟᴇᴇᴘʟᴇꜱꜱ ɴɪɢʜᴛꜱ. ꜱᴏ, ʀᴇꜱᴘᴇᴄᴛ ɪᴛ."
+            f"\n✪ ꜱᴏᴍᴇ ᴍᴏᴅᴜʟᴇꜱ ɪɴ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴏᴡɴᴇᴅ ʙʏ ᴅɪꜰꜰᴇʀᴇɴᴛ ᴀᴜᴛʜᴏʀꜱ, ꜱᴏ ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ ɢᴏᴇꜱ ᴛᴏ ᴛʜᴇᴍ ᴀʟꜱᴏ ꜰᴏʀ ᴘᴀᴜʟ ʟᴀʀꜱᴏɴ ꜰᴏʀ ᴍᴀʀɪᴇ."
+            f"\n✪ ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ᴀʙᴏᴜᴛ ᴛʜɪꜱ ʙᴏᴛ, ɢᴏ ᴛᴏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴜᴘᴘᴏʀᴛ"
+            f"\n✪ ɪꜰ ʏᴏᴜ ᴀꜱᴋɪɴɢ ɴᴏɴꜱᴇɴꜱᴇ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ, ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴡᴀʀɴᴇᴅ/ʙᴀɴɴᴇᴅ."
+            f"\n✪ ᴀʟʟ ᴀᴘɪ'ꜱ ᴡᴇ ᴜꜱᴇᴅ ᴏᴡɴᴇᴅ ʙʏ ᴏʀɪɢɪɴɴᴀʟ ᴀᴜᴛʜᴏʀꜱ ꜱᴏᴍᴇ ᴀᴘɪ'ꜱ ᴡᴇ ᴜꜱᴇ ꜰʀᴇᴇ ᴠᴇʀꜱɪᴏɴ ᴘʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴏᴠᴇʀᴜꜱᴇ ᴀɪ ᴄʜᴀᴛ.."
+            f"\n\nꜰᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏꜰ ʜᴇʟᴘ, ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜɪꜱ ʙᴏᴛ, ᴊᴏɪɴ @CreatorPavanSupport."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -509,19 +508,19 @@ def get_help(update, context):
             )
             return
         update.effective_message.reply_text(
-            "Contact me in PM to get the list of possible commands.",
+            ""ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ. ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴍʏ ᴘᴍ ꜰᴏʀ ᴘᴏꜱꜱɪʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ*.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
                         InlineKeyboardButton(
-                            text="Help",
+                            text="ᴄʟɪᴄᴋ ʜᴇʀᴇ",
                             url="t.me/{}?start=help".format(context.bot.username),
                         )
                     ],
                     [
                         InlineKeyboardButton(
-                            text="Support Chat",
-                            url="https://t.me/{}".format(SUPPORT_CHAT),
+                            text="ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ",
+                            url="https://t.me/CreatorPavanSupport,
                         )
                     ],
                 ]
