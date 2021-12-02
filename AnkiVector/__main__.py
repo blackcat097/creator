@@ -404,10 +404,10 @@ def AnkiVector_about_callback(update, context):
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
-            text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [Anki Vector Brother](https://t.me/TheVectorBrotherbot)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was written by Damantha Jasinghe"
-            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @{SUPPORT_CHAT}.",
+            text=f"*ᴀʙᴏᴜᴛ ᴄʀᴇᴀᴛᴏʀ ᴄʀᴇᴅɪᴛ :*\n\n» ᴄʀᴇᴀᴛᴏʀ ɪꜱ ᴛʜᴇ ʀᴇᴅᴇꜱɪɢɴᴇᴅ ᴠᴇʀꜱɪᴏɴ ᴏꜰ ᴅᴀɪꜱʏ, ɴᴀʀᴜᴛᴏ ᴀɴᴅ ᴀɴᴋɪɪ."
+            f"\n» ꜰʀᴏᴍ ᴏᴜʀ ᴀʙɪʟɪᴛʏ ᴡᴇ ᴛʀʏ ᴛᴏ ᴍᴀᴋᴇ ɪᴛ ᴇᴀꜱɪᴇʀ ᴀɴᴅ ᴛʀʏ ᴛᴏ ɢɪᴠᴇ ᴀ ʙᴇꜱᴛ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ."
+            f"\n» ᴛʜᴇ ᴍᴀɪɴ ꜱᴏᴜʀᴄᴇ ᴏꜰ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴡʀɪᴛᴛᴇɴ ʙʏ ᴅᴀᴍᴀɴᴛʜᴀ."
+            f"\n\n*ɪꜰ ᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴄʀᴇᴀᴛᴏʀ ᴛʜᴇɴ ʟᴇᴛ ᴜꜱ ᴋɴᴏᴡ ᴀᴛ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
