@@ -74,21 +74,21 @@ buttons = [
         InlineKeyboardButton(text="ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data="aboutmanu_howto"),
     ],
     [
-        InlineKeyboardButton(text="Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="Help", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", callback_data="aboutmanu_credit"),
+        InlineKeyboardButton(text="ᴍᴀꜱᴛᴇʀ", url="https://t.me/Creator_Pavan"),
     ],
     [
         InlineKeyboardButton(
-            text="Add Anki Vector To Youre Group", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"
         ),
     ],
     [
-        InlineKeyboardButton(text="Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="Help", callback_data="help_back"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ ᴀᴅᴅ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
         ),
     ],
 ]
