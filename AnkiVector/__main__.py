@@ -75,7 +75,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", callback_data="aboutmanu_credit"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/Creator_Pavan"),
+        InlineKeyboardButton(text="ᴍᴀꜱᴛᴇʀ", url="https://t.me/Creator_Pavan"),
     ],
     [
         InlineKeyboardButton(text="ᴛᴇʀᴍꜱ", callback_data="aboutmanu_tac"),
@@ -92,7 +92,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ ᴀᴅᴅ ᴄʀᴇᴀᴛᴏʀ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
         ),
     ],
 ]
@@ -241,7 +241,7 @@ def start(update: Update, context: CallbackContext):
             )            
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "🙋🏻 ᴄʀᴇᴀᴛᴏʀ ɪꜱ ᴏɴʟɪɴᴇ ꜱɪɴᴄᴇ:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -377,11 +377,6 @@ def AnkiVector_about_callback(update, context):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton(
-                            text="Terms and Conditions", callback_data="aboutmanu_tac"
-                        ),
-                    ],
                     [InlineKeyboardButton(text="Help", callback_data="help_back")],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
                 ]
@@ -405,9 +400,6 @@ def AnkiVector_about_callback(update, context):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton(text="Help", callback_data="help_back"),
-                    ],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
                 ]
             ),
@@ -436,7 +428,7 @@ def AnkiVector_about_callback(update, context):
             f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
             ),
         )
     elif query.data == "aboutmanu_spamprot":
@@ -485,9 +477,6 @@ def AnkiVector_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(
-                            text="Credits", callback_data="aboutmanu_credit"
-                        ),
                         InlineKeyboardButton(text="Back", callback_data="aboutmanu_"),
                     ]
                 ]
