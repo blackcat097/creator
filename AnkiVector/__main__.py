@@ -64,9 +64,9 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-`Hellow Baby, I am Creator
+`ʜᴇʟʟᴏᴡ ʙᴀʙʏ, ɪ ᴀᴍ **ᴄʀᴇᴀᴛᴏʀ**
 
-An advanced Premium superfast Powerful Group Manager with a lots of cool features..!`\n\n`Designed By : 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 𝗣𝗮𝘃𝗮𝗻`
+ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ꜱᴜᴘᴇʀꜰᴀꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴄᴏᴏʟ ꜰᴇᴀᴛᴜʀᴇꜱ ᴡɪᴛʜ ᴠᴄ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ᴀʟꜱᴏ..!`
 """
 
 buttons = [
