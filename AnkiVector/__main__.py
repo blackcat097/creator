@@ -75,15 +75,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", callback_data="aboutmanu_credit"),
-        InlineKeyboardButton(text="ᴍᴀꜱᴛᴇʀ", url="https://t.me/Creator_Pavan"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/Creator_Pavan"),
     ],
     [
-        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", callback_data="aboutmanu_credit"),
-        InlineKeyboardButton(text="ᴍᴀꜱᴛᴇʀ", url="https://t.me/Creator_Pavan"),
+        InlineKeyboardButton(text="ᴛ ᴀɴᴅ ᴄ", callback_data="aboutmanu_tac"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheCreatorPavan"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", callback_data="help_back"),
+        InlineKeyboardButton(text="ᴀᴅᴍɪɴꜱ", callback_data="aboutmanu_permis"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CreatorPavanSupport"),
     ],
     [
         InlineKeyboardButton(
