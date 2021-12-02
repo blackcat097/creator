@@ -475,6 +475,8 @@ __help__ = """
  ✪ /title <title here>*:* sets a custom title for an admin that the bot promoted
  ✪ /admincache*:* force refresh the admins list
  ✪ /zombies*:* scan and clean zombies
+
+© @CreatorPavanNetwork
 """
 
 ADMINLIST_HANDLER = DisableAbleCommandHandler("admins", adminlist)
@@ -501,7 +503,7 @@ dispatcher.add_handler(DEMOTE_HANDLER)
 dispatcher.add_handler(SET_TITLE_HANDLER)
 dispatcher.add_handler(ADMIN_REFRESH_HANDLER)
 
-__mod_name__ = "Admin"
+__mod_name__ = "ᴀᴅᴍɪɴ"
 __command_list__ = [
     "adminlist",
     "admins",
