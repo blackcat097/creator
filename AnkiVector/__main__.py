@@ -101,14 +101,9 @@ buttons = [
 ANKIVECTOR_STICKER = "CAACAgIAAx0CYAluEgACTaphqLWIDc1BHmxcbQT_Ih0oAZtMEAACTRAAAowt_QcvxvoUFbyqYiIE"
 
 HELP_STRINGS = f"""
-*Main Commands :* 🤖
+*✪ ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ :* 
 
-✪ /start: Starts me! You've probably already used this.
-✪ /help: Click this, I'll let you know about myself!
-✪ /donate: You can support my creater using this command.
-✪ /settings: 
-   ✪ in PM: will send you your settings for all supported modules.
-   ✪ in a Group: will redirect you to pm, with all that chat's settings.
+ᴛʜᴇ ʙᴇꜱᴛ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ. ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ ꜱᴇᴄᴛɪᴏɴ ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ʟᴇᴀʀɴ ᴛᴏ ᴜꜱᴇ ᴍᴇ.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -117,7 +112,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Damantha Jasinghe](t.me/Damantha_Jasinghe)"""
+Support them  [Creator Pavan](t.me/Creator_Pavan)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -241,7 +236,7 @@ def start(update: Update, context: CallbackContext):
             )            
     else:
         update.effective_message.reply_text(
-            "🙋🏻 ᴄʀᴇᴀᴛᴏʀ ɪꜱ ᴏɴʟɪɴᴇ ꜱɪɴᴄᴇ:</b> <code>{}</code>".format(
+            "ᴄʀᴇᴀᴛᴏʀ ɪꜱ ᴏɴʟɪɴᴇ ꜱɪɴᴄᴇ :</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -306,7 +301,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*⚊❮❮❮❮ ｢  Help  for  {}  module 」❯❯❯❯⚊*\n".format(
+                "*Creator Help  for  {}  module*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -368,16 +363,16 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* Hi There  The name's {dispatcher.bot.first_name} \n\nAs  You I'm a next generational group management bot developed by Anki Vector Updates.* "
-            f"\n\n Join [AnkiVectorUpdates](https://t.me/ankivectorUpdates) To Keep Yourself Updated About {dispatcher.bot.first_name}"
-            f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features"
-            f"\n\nYou Can Know More About Me By Clicking The Below Buttons",
+            text=f"* ʜɪɪ ᴛʜᴇʀᴇ, ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴄʀᴇᴀᴛᴏʀ \n\nɪ ᴀᴍ ᴛʜᴇ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴏᴘ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴡʜɪᴄʜ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ.* "
+            f"\n\n» ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ."
+            f"\n\n» ɪ ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ."
+            f"\n\n» ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀ ᴍᴜꜱɪᴄ ɪɴ ᴜʀ ɢʀᴏᴜᴘꜱ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."
+            f"\n\n» ɪ ᴄᴀɴ ᴍᴀɴᴀɢᴇ ᴜʀ ɢʀᴏᴜᴘ ᴠᴇʀʏ ꜱᴍᴏᴏᴛʜʟʏ.\n\n*ꜰᴏʀ ᴀ ᴀɴʏ ᴛʏᴘᴇ ᴏꜰ ʜᴇʟᴘ ᴏʀ ᴀɴʏ ᴛʏᴘᴇ ᴏꜰ ᴜʀ Qᴜᴀʀʀɪᴇꜱ ᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴜꜱ ᴀᴛ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="Help", callback_data="help_back")],
+                    [InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/CreatorPavanSupport")],
                     [InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
             ),
