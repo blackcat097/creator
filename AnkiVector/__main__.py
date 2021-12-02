@@ -78,13 +78,17 @@ buttons = [
         InlineKeyboardButton(text="ᴍᴀꜱᴛᴇʀ", url="https://t.me/Creator_Pavan"),
     ],
     [
-        InlineKeyboardButton(
-            text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"
-        ),
+        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", callback_data="aboutmanu_credit"),
+        InlineKeyboardButton(text="ᴍᴀꜱᴛᴇʀ", url="https://t.me/Creator_Pavan"),
     ],
     [
         InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
         InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", callback_data="help_back"),
+    ],
+    [
+        InlineKeyboardButton(
+            text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"
+        ),
     ],
     [
         InlineKeyboardButton(
