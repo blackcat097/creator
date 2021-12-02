@@ -70,30 +70,22 @@ PM_START_TEXT = f"""
 
 buttons = [
     [
-        InlineKeyboardButton(text="ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ", callback_data="aboutmanu_howto"),
+        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
+        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
     ],
     [
-        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", url="https://t.me/Creator_Pavan"),
-        InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", callback_data="aboutmanu_credit"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheCreatorPavan"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/TheCreatorPavan"),
+        InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
+        InlineKeyboardButton(text="❔ Help", callback_data="help_back"),
     ],
     [
         InlineKeyboardButton(
-            text="ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ Add Anki Vector To Youre Group ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
         ),
     ],
 ]
 
 
-ANKIVECTOR_STICKER = "CAACAgUAAx0CYAluEgACTI1hqJVOxi6jgop3UnbVECof8tTS8gACjQQAAhuvOFUbut-7-DjxFyIE"
+ANKIVECTOR_STICKER = "CAACAgUAAxkBAAEEwKthkPVBp6d5T4S3dlYZM3L8BkXRNAACOAQAAryviVQbCLI09PvjAAEiBA"
 
 HELP_STRINGS = f"""
 *Main Commands :* 🤖
