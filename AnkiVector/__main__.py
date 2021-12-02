@@ -66,13 +66,12 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = f"""
 `Hellow Baby, I am Creator
 
-An advanced Premium superfast Powerful Group Manager with a lots of cool features`
+An Advanced Premium Next Generation Powerful Group Manager with a lots of cool features. I can help u to manage ur Supergroup with my OP features..!`
 """
 
 buttons = [
     [
-        InlineKeyboardButton(text="📌Updates Channel", url="https://t.me/ankivectorUpdates"),
-        InlineKeyboardButton(text="🖲 Support Group", url="https://t.me/AnkiSupport_Official"),
+        InlineKeyboardButton(text="How to Use Me", callback_data="aboutmanu_howto"),
     ],
     [
         InlineKeyboardButton(text="📜 Source Code", url="https://www.youtube.com/watch?v=fXXEcAkWAFU"),
