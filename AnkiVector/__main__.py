@@ -508,7 +508,7 @@ def get_help(update, context):
             )
             return
         update.effective_message.reply_text(
-            ""ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ. ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴍʏ ᴘᴍ ꜰᴏʀ ᴘᴏꜱꜱɪʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ."",
+            "ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ. ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴍʏ ᴘᴍ ꜰᴏʀ ᴘᴏꜱꜱɪʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
