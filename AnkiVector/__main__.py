@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                        [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
                     ),
                 )
 
@@ -315,7 +315,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
                 ),
             )
 
@@ -379,9 +379,6 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="How To Use Me", callback_data="aboutmanu_howto"
-                        ),
-                        InlineKeyboardButton(
                             text="Terms and Conditions", callback_data="aboutmanu_tac"
                         ),
                     ],
@@ -409,9 +406,6 @@ def AnkiVector_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(
-                            text="Admins", callback_data="aboutmanu_permis"
-                        ),
                         InlineKeyboardButton(text="Help", callback_data="help_back"),
                     ],
                     [InlineKeyboardButton(text="Back", callback_data="aboutmanu_")],
@@ -427,7 +421,7 @@ def AnkiVector_about_callback(update, context):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_tac")]]
+                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
             ),
         )
 
@@ -471,7 +465,7 @@ def AnkiVector_about_callback(update, context):
             "\n_ A button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot! soft - restricts users ability to post media for 24 hours. strong - mutes on join until they prove they're not bots._",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_howto")]]
+                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
             ),
         )
     elif query.data == "aboutmanu_tac":
@@ -560,7 +554,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
+                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
             ),
         )
 
