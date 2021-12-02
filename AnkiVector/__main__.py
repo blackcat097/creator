@@ -372,8 +372,8 @@ def AnkiVector_about_callback(update, context):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CreatorPavanSupport")],
-                    [InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/theCreatorPavan")],
+                    InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CreatorPavanSupport"),
+                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/theCreatorPavan"),
                 ],
                 [
                     [InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
