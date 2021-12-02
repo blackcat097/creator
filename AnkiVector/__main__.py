@@ -64,9 +64,9 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-`ʜᴇᴍʟᴏ ʙᴀʙʏ ɪ ᴀᴍ The Creator
+**ʜᴇᴍʟᴏ ʙᴀʙʏ ɪ ᴀᴍ The Creator
 
-ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ꜱᴜᴘᴇʀꜰᴀꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴏᴘ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴄᴏʟʟ ꜰᴇᴀᴛᴜʀᴇꜱ`\n\n`ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ` : @Creator_Pavan"""
+ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ꜱᴜᴘᴇʀꜰᴀꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴏᴘ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴄᴏʟʟ ꜰᴇᴀᴛᴜʀᴇꜱ\n\nꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ : @Creator_Pavan**"""
 
 buttons = [
     [
