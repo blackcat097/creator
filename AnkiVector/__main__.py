@@ -103,7 +103,7 @@ ANKIVECTOR_STICKER = "CAACAgIAAx0CYAluEgACTaphqLWIDc1BHmxcbQT_Ih0oAZtMEAACTRAAAo
 HELP_STRINGS = f"""
 *✪ ᴍᴀɪɴ ᴄᴏᴍᴍᴀɴᴅꜱ ʟɪꜱᴛ :* 
 
-ᴛʜᴇ ʙᴇꜱᴛ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ. ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ ꜱᴇᴄᴛɪᴏɴ ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ʟᴇᴀʀɴ ᴛᴏ ᴜꜱᴇ ᴍᴇ.
+ᴛʜᴇ ʙᴇꜱᴛ ᴏᴘ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴛᴏ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘꜱ ᴇᴀꜱɪʟʏ ᴀɴᴅ ꜱᴍᴏᴏᴛʜʟʏ. ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ ꜱᴇᴄᴛɪᴏɴ ᴡʜᴇʀᴇ ʏᴏᴜ ᴄᴀɴ ʟᴇᴀʀɴ ᴛᴏ ᴜꜱᴇ ᴍᴇ.
 """.format(
     dispatcher.bot.first_name,
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
@@ -372,7 +372,10 @@ def AnkiVector_about_callback(update, context):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ", url="https://t.me/CreatorPavanSupport")],
+                    [InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CreatorPavanSupport")],
+                    [InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/theCreatorPavan")],
+                ],
+                [
                     [InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
             ),
@@ -387,9 +390,9 @@ def AnkiVector_about_callback(update, context):
 
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
-            text=f"* ｢ BASIC HELP 」*"
-            f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [Anki Vectr Support](https://t.me/AnkiSupport_Official).\n"
+            text=f"*✪ ʙᴀꜱɪᴄ ʜᴇʟᴘ :*"
+            f"\n» ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴄʀᴇᴀᴛᴏʀ, ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ꜰᴏʀ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ.\n"
+            f"\n» ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ ᴜ ᴡᴀɴᴛ ᴛᴏ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀ ᴀᴅᴍɪɴ ᴡɪᴛʜ ꜰᴜʟʟ ᴘᴇʀᴍɪꜱꜱɪᴏɴ.\n\n*ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍᴇ ᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ ᴍᴀꜱᴛᴇʀ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ.*"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
