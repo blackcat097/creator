@@ -520,7 +520,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ",
-                            url="https://t.me/CreatorPavanSupport,
+                            url="https://t.me/CreatorPavanSupport",
                         )
                     ],
                 ]
