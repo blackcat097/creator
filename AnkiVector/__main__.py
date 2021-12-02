@@ -78,7 +78,7 @@ buttons = [
         InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/Creator_Pavan"),
     ],
     [
-        InlineKeyboardButton(text="ᴛ ᴀɴᴅ ᴄ", callback_data="aboutmanu_tac"),
+        InlineKeyboardButton(text="ᴛᴇʀᴍꜱ", callback_data="aboutmanu_tac"),
         InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheCreatorPavan"),
     ],
     [
