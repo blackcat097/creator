@@ -15,4 +15,4 @@ __help__ = """
 
 © @CreatorPavanNetwork
 """
-__mod_name__ = "ᴀʙᴏᴜᴛ"
+__mod_name__ = "About"
