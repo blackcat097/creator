@@ -75,15 +75,11 @@ buttons = [
     ],
     [
         InlineKeyboardButton(text="ᴄʀᴇᴅɪᴛ", callback_data="aboutmanu_credit"),
-        InlineKeyboardButton(text="ᴍᴀꜱᴛᴇʀ", url="https://t.me/Creator_Pavan"),
+        InlineKeyboardButton(text="ᴍᴀꜱᴛᴇʀ", callback_data="aboutmanu_tac"),
     ],
     [
-        InlineKeyboardButton(text="ᴛᴇʀᴍꜱ", callback_data="aboutmanu_tac"),
+        InlineKeyboardButton(text="ᴛᴇʀᴍꜱ",   url="https://t.me/CreatorPavanSupport"),
         InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheCreatorPavan"),
-    ],
-    [
-        InlineKeyboardButton(text="ᴀᴅᴍɪɴꜱ", callback_data="aboutmanu_permis"),
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CreatorPavanSupport"),
     ],
     [
         InlineKeyboardButton(
@@ -372,8 +368,7 @@ def AnkiVector_about_callback(update, context):
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CreatorPavanSupport"),
-                    InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/theCreatorPavan"),
+                    [InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CreatorPavanSupport"),]
                 ],
                 [
                     [InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
