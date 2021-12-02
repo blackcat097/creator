@@ -213,7 +213,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
+                        [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
                     ),
                 )
 
@@ -315,7 +315,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
+                    [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
                 ),
             )
 
@@ -378,7 +378,7 @@ def AnkiVector_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [InlineKeyboardButton(text="Help", callback_data="help_back")],
-                    [InlineKeyboardButton(text="Back", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="Back", callback_data="help_back")],
                 ]
             ),
         )
@@ -428,7 +428,7 @@ def AnkiVector_about_callback(update, context):
             f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
+                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
             ),
         )
     elif query.data == "aboutmanu_spamprot":
@@ -457,7 +457,7 @@ def AnkiVector_about_callback(update, context):
             "\n_ A button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot! soft - restricts users ability to post media for 24 hours. strong - mutes on join until they prove they're not bots._",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
+                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
             ),
         )
     elif query.data == "aboutmanu_tac":
@@ -477,7 +477,7 @@ def AnkiVector_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="Back", callback_data="aboutmanu_"),
+                        InlineKeyboardButton(text="Back", callback_data="help_back"),
                     ]
                 ]
             ),
@@ -543,7 +543,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Back", callback_data="aboutmanu_")]]
+                [[InlineKeyboardButton(text="Back", callback_data="help_back")]]
             ),
         )
 
