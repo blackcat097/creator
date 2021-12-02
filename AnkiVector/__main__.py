@@ -64,9 +64,11 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-**ʜᴇᴍʟᴏ ʙᴀʙʏ ɪ ᴀᴍ The Creator
+*Hellow There, I'm Anki Vector 🍑
 
-ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ꜱᴜᴘᴇʀꜰᴀꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴏᴘ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴄᴏʟʟ ꜰᴇᴀᴛᴜʀᴇꜱ\n\nꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ : @Creator_Pavan**"""
+I'm a Powerfull group manager bot With Cool Modules. Made My @TeamAnkiVector
+hit /help to Find my list of available commands 🕹*
+"""
 
 buttons = [
     [
