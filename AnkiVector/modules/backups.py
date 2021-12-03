@@ -372,7 +372,7 @@ def get_chat(chat_id, chat_data):
         return {"status": False, "value": False}
 
 
-__mod_name__ = "Backups"
+__mod_name__ = "ʙᴀᴄᴋᴜᴘ"
 
 __help__ = """
 *Only for group owner:*
@@ -382,6 +382,7 @@ __help__ = """
 
  ✪ `/export`: Export group data, which will be exported are: rules, notes (documents, images, music, video, audio, voice, text, text buttons) \
 
+© @TheCreatorPavan
 """
 
 IMPORT_HANDLER = CommandHandler("import", import_data)
