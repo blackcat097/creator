@@ -608,6 +608,8 @@ __help__ = """
 
 _NOTE:_
  If you set Log Channels, you will get logs of Silent kick and bans. Check *Logger* module to know more about Log Channel.
+
+© @TheCreatorPavan
 """
 
 BAN_HANDLER = CommandHandler("ban", ban)
@@ -630,7 +632,7 @@ dispatcher.add_handler(ROAR_HANDLER)
 dispatcher.add_handler(KICKME_HANDLER)
 dispatcher.add_handler(SBAN_HANDLER)
 
-__mod_name__ = "Bans"
+__mod_name__ = "ʙᴀɴꜱ"
 __handlers__ = [
     BAN_HANDLER,
     TEMPBAN_HANDLER,
