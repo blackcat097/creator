@@ -582,7 +582,7 @@ Get information about anime, manga or characters from [AniList](anilist.co).
  • `/kayo <anime>`*:* search an anime on animekayo.com
  • `/airing <anime>`*:* returns anime airing info.
 
-© @CreatorPavanNetwork
+© @TheCreatorPavan
  """
 
 ANIME_HANDLER = DisableAbleCommandHandler("anime", anime)
@@ -627,4 +627,4 @@ __handlers__ = [
     BUTTON_HANDLER,
     AIRING_HANDLER,
 ]
-__mod_name__ = "Anime"
+__mod_name__ = "ᴀɴɪᴍᴇ"
