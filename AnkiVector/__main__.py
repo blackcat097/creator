@@ -306,7 +306,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
+                    [[InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="help_back")]]
                 ),
             )
 
