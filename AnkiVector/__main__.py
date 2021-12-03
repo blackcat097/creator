@@ -88,7 +88,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴄʀᴇᴀᴛᴏʀ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/TheAnkiVectorbot?startgroup=true"
+            text="➕ ᴀᴅᴅ ᴄʀᴇᴀᴛᴏʀ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/Creator_Pavan_Bot?startgroup=true"
         ),
     ],
 ]
