@@ -66,7 +66,7 @@ from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 PM_START_TEXT = f"""
 `ʜᴇʟʟᴏᴡ ʙᴀʙʏ, ɪ ᴀᴍ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ 
 
-ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ꜱᴜᴘᴇʀꜰᴀꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴄᴏᴏʟ ꜰᴇᴀᴛᴜʀᴇꜱ ᴀɴᴅ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ᴠᴄ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ᴀʟꜱᴏ..!`\n\n`ᴅᴇꜱɪɢɴᴇᴅ ʙʏ : 𝗖𝗿𝗲𝗮𝘁𝗼𝗿 𝗣𝗮𝘃𝗮𝗻`
+ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ꜱᴜᴘᴇʀꜰᴀꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴄᴏᴏʟ ꜰᴇᴀᴛᴜʀᴇꜱ ᴀɴᴅ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ᴠᴄ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ᴀʟꜱᴏ..!`\n\n`ᴅᴇꜱɪɢɴᴇᴅ ʙʏ :` @Creator_Pavan
 """
 
 buttons = [
@@ -88,7 +88,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/CreatorPavanNetworkBot?startgroup=true"
+            text="➕ ᴀᴅᴅ ᴄʀᴇᴀᴛᴏʀ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/CreatorPavanNetworkBot?startgroup=true"
         ),
     ],
 ]
@@ -297,7 +297,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ   {}  ᴍᴏᴅᴜʟᴇ*\n".format(
+                "*ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ  {}  ᴍᴏᴅᴜʟᴇ*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
