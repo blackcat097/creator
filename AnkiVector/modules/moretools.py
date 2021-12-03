@@ -27,5 +27,7 @@ __help__ = """
 
 ** More **
  - /phone <tp no> : Track Phone no
+
+© @TheCreatorPavan
 """
-__mod_name__ = "More Tools"
+__mod_name__ = "ᴍᴏʀᴇ ᴛᴏᴏʟꜱ"
