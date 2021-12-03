@@ -653,9 +653,11 @@ __help__ = """
   ✪ /time <query>: Gives information about a timezone.
   ✪ /weather <city>: Gets weather information of particular place!
 \
+
+© @TheCreatorPavan
 """
 
-__mod_name__ = "Miscs"
+__mod_name__ = "ᴍɪꜱᴄꜱ"
 
 APP_HANDLER = DisableAbleCommandHandler("app", app)
 LYRICS_HANDLER = DisableAbleCommandHandler("lyrics", lyrics, pass_args=True)
