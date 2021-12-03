@@ -30,4 +30,4 @@ __help__ = """
 
 © @TheCreatorPavan
 """
-__mod_name__ = "ᴍᴏʀᴇ ᴛᴏᴏʟꜱ"
+__mod_name__ = "ᴍᴏʀᴇ"
