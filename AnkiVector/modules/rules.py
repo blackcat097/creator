@@ -124,9 +124,11 @@ __help__ = """
 *Admins only:*
  ✪ /setrules <your rules here>*:* set the rules for this chat.
  ✪ /clearrules*:* clear the rules for this chat.
+
+© @TheCreatorPavan
 """
 
-__mod_name__ = "Rules"
+__mod_name__ = "ʀᴜʟᴇꜱ"
 
 GET_RULES_HANDLER = CommandHandler("rules", get_rules, filters=Filters.group)
 SET_RULES_HANDLER = CommandHandler("setrules", set_rules, filters=Filters.group)
