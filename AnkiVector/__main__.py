@@ -78,13 +78,13 @@ buttons = [
         InlineKeyboardButton(text="ᴛᴇʀᴍꜱ", callback_data="aboutmanu_tac"),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ",   url="https://t.me/CreatorPavanSupport"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheCreatorPavan"),
-    ],
-    [
         InlineKeyboardButton(
             text="ʜᴇʟᴘ ᴀɴᴅ ᴄᴏᴍᴍᴀɴᴅꜱ", callback_data="help_back"
         ),
+    ],
+    [
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ",   url="https://t.me/CreatorPavanSupport"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheCreatorPavan"),
     ],
     [
         InlineKeyboardButton(
@@ -406,8 +406,8 @@ def AnkiVector_about_callback(update, context):
         query.message.edit_text(
             text=f"*✪ ᴀʙᴏᴜᴛ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴄʀᴇᴅɪᴛ*\n\n\n» ᴄʀᴇᴀᴛᴏʀ ɪꜱ ᴛʜᴇ ʀᴇᴅᴇꜱɪɢɴᴇᴅ ᴠᴇʀꜱɪᴏɴ ᴏꜰ ᴅᴀɪꜱʏ, ɴᴀʀᴜᴛᴏ ᴀɴᴅ ᴀɴᴋɪɪ."
             f"\n\n» ꜰʀᴏᴍ ᴏᴜʀ ᴀʙɪʟɪᴛʏ ᴡᴇ ᴛʀʏ ᴛᴏ ᴍᴀᴋᴇ ɪᴛ ᴇᴀꜱɪᴇʀ ᴀɴᴅ ᴛʀʏ ᴛᴏ ɢɪᴠᴇ ᴀ ʙᴇꜱᴛ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ."
-            f"\n\n» ᴛʜɪꜱ ʀᴏʙᴏᴛ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ."
-            f"\n\n\n*ɪꜰ ᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ ᴛʜᴇɴ ʟᴇᴛ ᴜꜱ ᴋɴᴏᴡ ᴀᴛ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.*",
+            f"\n\n» ᴛʜɪꜱ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ʀᴏʙᴏᴛ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ."
+            f"\n\n\n*ɪꜰ ᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴛʜᴇɴ ʟᴇᴛ ᴜꜱ ᴋɴᴏᴡ ᴀᴛ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
