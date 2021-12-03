@@ -202,9 +202,11 @@ if is_module_loaded(FILENAME):
  *1.* adding the bot to the desired channel (as an admin!)
  *2.* sending `/setlog` in the channel
  *3.* forwarding the `/setlog` to the group
+
+© @TheCreatorPavan
 """
 
-    __mod_name__ = "Logger"
+    __mod_name__ = "ʟᴏɢɢᴇʀ"
 
     LOG_HANDLER = CommandHandler("logchannel", logging)
     SET_LOG_HANDLER = CommandHandler("setlog", setlog)
