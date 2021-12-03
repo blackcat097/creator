@@ -348,9 +348,11 @@ if is_module_loaded(FILENAME):
     ✪ /enablemodule <module name>*:* enable all commands in that module
     ✪ /disablemodule <module name>*:* disable all commands in that module
     ✪ /listcmds*:* list all possible toggleable commands
-    """
+    
+© @TheCreatorPavan
+"""
 
-    __mod_name__ = "Disabling"
+    __mod_name__ = "ᴅɪꜱᴀʙʟɪɴɢ"
 
 else:
     DisableAbleCommandHandler = CommandHandler
