@@ -268,6 +268,8 @@ __help__ = """
  ➩ /music <songname artist(optional)>: uploads the song in it's best quality available
 
  ➩ /vsong <songname artist(optional)>: uploads the video song in it's best quality available
+
+© @TheCreatorPavan
 """
 
-__mod_name__ = "Songs"
+__mod_name__ = "ʙʀᴏᴋᴇɴ"
