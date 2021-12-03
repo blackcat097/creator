@@ -200,7 +200,7 @@ def unapproveall(update, context):
         "Successully unapproved all users from {}.".format(chat.title)
     )
         
-__mod_name__ = "Approval"    
+__mod_name__ = "ᴀᴘᴘʀᴏᴠᴀʟ"    
 
 __help__ = """ 
 \
@@ -216,7 +216,7 @@ Admin commands:
 ✪ /unapproveall*:* Unapprove ALL users in a chat. This cannot be undone.
 \
 
-© @CreatorPavanNetwork
+© @TheCreatorPavan
 """    
 
 APPROVED_HANDLER = DisableAbleCommandHandler("approved", approved, filters=Filters.group)
