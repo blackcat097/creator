@@ -64,7 +64,7 @@ from AnkiVector.modules.helper_funcs.misc import paginate_modules
 from AnkiVector.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = f"""
-`ʜᴇʏ, ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ 
+`ʜᴇʏ, ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ʙʟᴀᴄᴋ ᴄᴀᴛ
 
 ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴘʀᴇᴍɪᴜᴍ ꜱᴜᴘᴇʀꜰᴀꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ᴏᴘ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ᴡɪᴛʜ ʟᴏᴛꜱ ᴏꜰ ᴄᴏᴏʟ ꜰᴇᴀᴛᴜʀᴇꜱ ᴀɴᴅ ʜɪɢʜ Qᴜᴀʟɪᴛʏ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ᴀʟꜱᴏ..!`\n\n`ʏᴏᴜ ᴄᴀɴ ᴋɴᴏᴡ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍᴇ ʙʏ ᴘʀᴇꜱꜱɪɴɢ ꜰᴏʟʟᴏᴡɪɴɢ ʙᴜᴛᴛᴏɴꜱ.`
 """
@@ -83,12 +83,12 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ",   url="https://t.me/CreatorPavanSupport"),
-        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheCreatorPavan"),
+        InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ",   url="https://t.me/catmusicworld"),
+        InlineKeyboardButton(text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/catmusicworld"),
     ],
     [
         InlineKeyboardButton(
-            text="➕ ᴀᴅᴅ ᴄʀᴇᴀᴛᴏʀ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/CreatorPavanNetworkBot?startgroup=true"
+            text="➕ ᴀᴅᴅ ᴄʀᴇᴀᴛᴏʀ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ➕", url="t.me/Preethimusicrobot?startgroup=true"
         ),
     ],
 ]
@@ -108,7 +108,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [Creator Pavan](t.me/Creator_Pavan)"""
+Support them  [𝙗𝙡𝙖𝙘𝙠 𝙘𝙖𝙩](t.me/The_cat_lover0)"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -204,7 +204,7 @@ def start(update: Update, context: CallbackContext):
                     update.effective_chat.id,
                     HELPABLE[mod].__help__,
                     InlineKeyboardMarkup(
-                        [[InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
+                        [[InlineKeyboardButton(text="🔙  ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
                     ),
                 )
 
@@ -232,7 +232,7 @@ def start(update: Update, context: CallbackContext):
             )            
     else:
         update.effective_message.reply_text(
-            "ᴄʀᴇᴀᴛᴏʀ ɪꜱ ᴏɴʟɪɴᴇ ꜱɪɴᴄᴇ :</b> <code>{}</code>".format(
+            "ᴏɴʟɪɴᴇ ꜱɪɴᴄᴇ :</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -297,7 +297,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ  {}  ᴍᴏᴅᴜʟᴇ*\n".format(
+                "*ʙʟᴀᴄᴋ ᴄᴀᴛ  {}  ᴍᴏᴅᴜʟᴇ*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -306,7 +306,7 @@ def help_button(update, context):
                 text=text,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="🔙 ᴍᴏᴅᴜʟᴇ ʙᴀᴄᴋ", callback_data="help_back")]]
                 ),
             )
 
@@ -359,7 +359,7 @@ def AnkiVector_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"* ʜɪɪ ᴛʜᴇʀᴇ, ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴄʀᴇᴀᴛᴏʀ \n\nɪ ᴀᴍ ᴛʜᴇ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴏᴘ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴡʜɪᴄʜ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ɴᴇᴛᴡᴏʀᴋ.* "
+            text=f"* ʜɪɪ ᴛʜᴇʀᴇ, ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴄʀᴇᴀᴛᴏʀ \n\nɪ ᴀᴍ ᴛʜᴇ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ᴏᴘ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ʙᴏᴛ ᴡʜɪᴄʜ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ʙʟᴀᴄᴋ ᴄᴀᴛ ɴᴇᴛᴡᴏʀᴋ.* "
             f"\n\n» ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ."
             f"\n\n» ɪ ᴄᴀɴ ᴘʀᴏᴛᴇᴄᴛ ᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ."
             f"\n\n» ɪ ᴄᴀɴ ᴘʟᴀʏ ᴀ ᴍᴜꜱɪᴄ ɪɴ ᴜʀ ɢʀᴏᴜᴘꜱ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ."
@@ -370,13 +370,13 @@ def AnkiVector_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(
-                            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/CreatorPavanSupport"
+                            text="ꜱᴜᴘᴘᴏʀᴛ", url="https://t.me/catmusicworld"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/TheCreatorPavan"
+                            text="ᴜᴘᴅᴀᴛᴇꜱ", url="https://t.me/catmusicworld"
                         ),
                     ],
-                    [InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="🔙  ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
             ),
         )
@@ -391,27 +391,27 @@ def AnkiVector_about_callback(update, context):
     elif query.data == "aboutmanu_howto":
         query.message.edit_text(
             text=f"*✪ ʙᴀꜱɪᴄ ʜᴇʟᴘ :*"
-            f"\n\n\n» ᴍʏ ɴᴀᴍᴇ ɪꜱ ᴄʀᴇᴀᴛᴏʀ, ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ꜰᴏʀ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ.\n"
-            f"\n» ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ ᴜ ᴡᴀɴᴛ ᴛᴏ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀ ᴀᴅᴍɪɴ ᴡɪᴛʜ ꜰᴜʟʟ ᴘᴇʀᴍɪꜱꜱɪᴏɴ.\n\n*ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍᴇ ᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ ᴍᴀꜱᴛᴇʀ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ.*"
+            f"\n\n\n» ᴍʏ ɴᴀᴍᴇ ɪꜱ ʙʟᴀᴄᴋ ᴄᴀᴛ, ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɴᴇxᴛ ɢᴇɴᴇʀᴀᴛɪᴏɴ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇʀ ꜰᴏʀ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ꜱᴜᴘᴇʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ᴛᴏ ᴍᴀɴᴀɢᴇ ᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ.\n"
+            f"\n» ꜰᴏʀ ᴜꜱɪɴɢ ᴍᴇ ᴜ ᴡᴀɴᴛ ᴛᴏ ᴊᴜꜱᴛ ᴀᴅᴅ ᴍᴇ ᴛᴏ ᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ ᴍᴀᴋᴇ ᴀ ᴀᴅᴍɪɴ ᴡɪᴛʜ ꜰᴜʟʟ ᴘᴇʀᴍɪꜱꜱɪᴏɴ.\n\n*ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍᴇ ᴜ ᴄᴀɴ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ ᴍᴀꜱᴛᴇʀ ʙʟᴀᴄᴋ ᴄᴀᴛ.*"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
+                    [InlineKeyboardButton(text="🔙  ʙᴀᴄᴋ", callback_data="aboutmanu_back")],
                 ]
             ),
         )
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
-            text=f"*✪ ᴀʙᴏᴜᴛ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴄʀᴇᴅɪᴛ*\n\n\n» ᴄʀᴇᴀᴛᴏʀ ɪꜱ ᴛʜᴇ ʀᴇᴅᴇꜱɪɢɴᴇᴅ ᴠᴇʀꜱɪᴏɴ ᴏꜰ ᴅᴀɪꜱʏ, ɴᴀʀᴜᴛᴏ ᴀɴᴅ ᴀɴᴋɪɪ."
+            text=f"*✪ ᴀʙᴏᴜᴛ ʙʟᴀᴄᴋ ᴄᴀᴛ ᴄʀᴇᴅɪᴛ*\n\n\n» ᴄᴀᴛ ɪꜱ ᴛʜᴇ ʀᴇᴅᴇꜱɪɢɴᴇᴅ ᴠᴇʀꜱɪᴏɴ ᴏꜰ ᴅᴀɪꜱʏ, ɴᴀʀᴜᴛᴏ ᴀɴᴅ ᴀɴᴋɪɪ."
             f"\n\n» ꜰʀᴏᴍ ᴏᴜʀ ᴀʙɪʟɪᴛʏ ᴡᴇ ᴛʀʏ ᴛᴏ ᴍᴀᴋᴇ ɪᴛ ᴇᴀꜱɪᴇʀ ᴀɴᴅ ᴛʀʏ ᴛᴏ ɢɪᴠᴇ ᴀ ʙᴇꜱᴛ ᴘᴇʀꜰᴏʀᴍᴀɴᴄᴇ."
-            f"\n\n» ᴛʜɪꜱ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ʀᴏʙᴏᴛ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ."
-            f"\n\n\n*ɪꜰ ᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ᴛʜᴇɴ ʟᴇᴛ ᴜꜱ ᴋɴᴏᴡ ᴀᴛ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.*",
+            f"\n\n» ᴛʜɪꜱ ʙʟᴀᴄᴋ ᴄᴀᴛ ʀᴏʙᴏᴛ ɪꜱ ꜱᴘᴇᴄɪᴀʟʟʏ ᴅᴇꜱɪɢɴᴇᴅ ʙʏ ʙʟᴀᴄᴋ ᴄᴀᴛ."
+            f"\n\n\n*ɪꜰ ᴜ ʜᴀᴠᴇ ᴀɴʏ Qᴜᴇꜱᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴛʜᴇ ʙʟᴀᴄᴋ ᴄᴀᴛ ᴛʜᴇɴ ʟᴇᴛ ᴜꜱ ᴋɴᴏᴡ ᴀᴛ ᴏᴜʀ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ.*",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
+                [[InlineKeyboardButton(text="🔙  ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
             ),
         )
 
@@ -426,7 +426,7 @@ def AnkiVector_about_callback(update, context):
             f"\n\nThe message very clearly says that you need these rights - <i>not {dispatcher.bot.first_name}.</i>",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
+                [[InlineKeyboardButton(text="🔙  ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
             ),
         )
     elif query.data == "aboutmanu_spamprot":
@@ -455,7 +455,7 @@ def AnkiVector_about_callback(update, context):
             "\n_ A button gets added to the welcome message for them to unmute themselves. This proves they aren't a bot! soft - restricts users ability to post media for 24 hours. strong - mutes on join until they prove they're not bots._",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
+                [[InlineKeyboardButton(text="🔙  ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
             ),
         )
     elif query.data == "aboutmanu_tac":
@@ -463,18 +463,18 @@ def AnkiVector_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ ᴡᴇ ᴀʟᴡᴀʏꜱ ʀᴇꜱᴘᴇᴄᴛ ʏᴏᴜʀ ᴘʀɪᴠᴀᴄʏ ᴡᴇ ɴᴇᴠᴇʀ ʟᴏɢ ɪɴᴛᴏ ʙᴏᴛ'ꜱ ᴀᴘɪ ᴀɴᴅ ꜱᴘʏɪɴɢ ᴏɴ ʏᴏᴜ ᴡᴇ ᴜꜱᴇ ᴀ ᴇɴᴄʀɪᴘᴛᴇᴅ ᴅᴀᴛᴀʙᴀꜱᴇ ʙᴏᴛ ᴡɪʟʟ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ ꜱᴛᴏᴘꜱ ɪꜰ ꜱᴏᴍᴇᴏɴᴇ ʟᴏɢɢᴇᴅ ɪɴ ᴡɪᴛʜ ᴀᴘɪ."
-            f"\n✪ ᴀʟᴡᴀʏꜱ ᴛʀʏ ᴛᴏ ᴋᴇᴇᴘ ᴄʀᴇᴅɪᴛꜱ, ꜱᴏ ᴛʜɪꜱ ʜᴀʀᴅᴡᴏʀᴋ ɪꜱ ᴅᴏɴᴇ ʙʏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ɴᴇᴛᴡᴏʀᴋ ᴛᴇᴀᴍ ꜱᴘᴇɴᴅɪɴɢ ᴍᴀɴʏ ꜱʟᴇᴇᴘʟᴇꜱꜱ ɴɪɢʜᴛꜱ. ꜱᴏ, ʀᴇꜱᴘᴇᴄᴛ ɪᴛ."
+            f"\n✪ ᴀʟᴡᴀʏꜱ ᴛʀʏ ᴛᴏ ᴋᴇᴇᴘ ᴄʀᴇᴅɪᴛꜱ, ꜱᴏ ᴛʜɪꜱ ʜᴀʀᴅᴡᴏʀᴋ ɪꜱ ᴅᴏɴᴇ ʙʏ ʙʟᴀᴄᴋ ᴄᴀᴛ ɴᴇᴛᴡᴏʀᴋ ᴛᴇᴀᴍ ꜱᴘᴇɴᴅɪɴɢ ᴍᴀɴʏ ꜱʟᴇᴇᴘʟᴇꜱꜱ ɴɪɢʜᴛꜱ. ꜱᴏ, ʀᴇꜱᴘᴇᴄᴛ ɪᴛ."
             f"\n✪ ꜱᴏᴍᴇ ᴍᴏᴅᴜʟᴇꜱ ɪɴ ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴏᴡɴᴇᴅ ʙʏ ᴅɪꜰꜰᴇʀᴇɴᴛ ᴀᴜᴛʜᴏʀꜱ, ꜱᴏ ᴀʟʟ ᴄʀᴇᴅɪᴛꜱ ɢᴏᴇꜱ ᴛᴏ ᴛʜᴇᴍ ᴀʟꜱᴏ ꜰᴏʀ ᴘᴀᴜʟ ʟᴀʀꜱᴏɴ ꜰᴏʀ ᴍᴀʀɪᴇ."
-            f"\n✪ ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ᴀʙᴏᴜᴛ ᴛʜɪꜱ ʙᴏᴛ, ɢᴏ ᴛᴏ ᴄʀᴇᴀᴛᴏʀ ᴘᴀᴠᴀɴ ꜱᴜᴘᴘᴏʀᴛ"
+            f"\n✪ ɪꜰ ʏᴏᴜ ɴᴇᴇᴅ ᴛᴏ ᴀꜱᴋ ᴀɴʏᴛʜɪɴɢ ᴀʙᴏᴜᴛ ᴛʜɪꜱ ʙᴏᴛ, ɢᴏ ᴛᴏ ʙʟᴀᴄᴋ ᴄᴀᴛ ꜱᴜᴘᴘᴏʀᴛ"
             f"\n✪ ɪꜰ ʏᴏᴜ ᴀꜱᴋɪɴɢ ɴᴏɴꜱᴇɴꜱᴇ ɪɴ ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ, ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴡᴀʀɴᴇᴅ/ʙᴀɴɴᴇᴅ."
             f"\n✪ ᴀʟʟ ᴀᴘɪ'ꜱ ᴡᴇ ᴜꜱᴇᴅ ᴏᴡɴᴇᴅ ʙʏ ᴏʀɪɢɪɴɴᴀʟ ᴀᴜᴛʜᴏʀꜱ ꜱᴏᴍᴇ ᴀᴘɪ'ꜱ ᴡᴇ ᴜꜱᴇ ꜰʀᴇᴇ ᴠᴇʀꜱɪᴏɴ ᴘʟᴇᴀꜱᴇ ᴅᴏɴ'ᴛ ᴏᴠᴇʀᴜꜱᴇ ᴀɪ ᴄʜᴀᴛ.."
-            f"\n\nꜰᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏꜰ ʜᴇʟᴘ, ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜɪꜱ ʙᴏᴛ, ᴊᴏɪɴ @CreatorPavanSupport."
+            f"\n\nꜰᴏʀ ᴀɴʏ ᴋɪɴᴅ ᴏꜰ ʜᴇʟᴘ, ʀᴇʟᴀᴛᴇᴅ ᴛᴏ ᴛʜɪꜱ ʙᴏᴛ, ᴊᴏɪɴ @catmusicworld."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back"),
+                        InlineKeyboardButton(text="🔙  ʙᴀᴄᴋ", callback_data="aboutmanu_back"),
                     ]
                 ]
             ),
@@ -508,7 +508,7 @@ def get_help(update, context):
             )
             return
         update.effective_message.reply_text(
-            "ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ᴄʀᴇᴀᴛᴏʀ. ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴍʏ ᴘᴍ ꜰᴏʀ ᴘᴏꜱꜱɪʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ.",
+            "ᴛʜɪꜱ ɪꜱ ᴛʜᴇ ʙʟᴀᴄᴋ ᴄᴀᴛ. ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ ɪɴ ᴍʏ ᴘᴍ ꜰᴏʀ ᴘᴏꜱꜱɪʙʟᴇ ᴄᴏᴍᴍᴀɴᴅꜱ.",
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
@@ -520,7 +520,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="ꜱᴜᴘᴘᴏʀᴛ ᴄʜᴀᴛ",
-                            url="https://t.me/CreatorPavanSupport",
+                            url="https://t.me/catmusicworld",
                         )
                     ],
                 ]
@@ -540,7 +540,7 @@ def get_help(update, context):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="🔙 ᴄʀᴇᴀᴛᴏʀ ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
+                [[InlineKeyboardButton(text="🔙  ʙᴀᴄᴋ", callback_data="aboutmanu_back")]]
             ),
         )
 
